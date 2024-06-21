@@ -89,7 +89,7 @@ extern "C" {
  * End-device IEEE EUI (big endian)
  * When set to 00,00,00,00,00,00,00,00 DevEui is automatically set with a value provided by MCU platform
  */
-#define LORAWAN_DEVICE_EUI                                 00,00,00,00,00,00,00,00
+#define LORAWAN_DEVICE_EUI                                 00,80,e1,15,00,4d,74,80
 
 /*!
  * App/Join server IEEE EUI (big endian)
@@ -100,7 +100,7 @@ extern "C" {
  * Device address on the network (big endian)
  * When set to 00,00,00,00 DevAddr is automatically set with a value provided by MCU platform
  */
-#define LORAWAN_DEVICE_ADDRESS                             00,00,00,00
+#define LORAWAN_DEVICE_ADDRESS                             40,ad,a0,79
 
 /*!
  * Application root key

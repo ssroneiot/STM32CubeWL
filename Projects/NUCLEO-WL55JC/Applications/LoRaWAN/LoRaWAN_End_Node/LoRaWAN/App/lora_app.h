@@ -39,7 +39,7 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 
 /* LoraWAN application configuration (Mw is configured by lorawan_conf.h) */
-#define ACTIVE_REGION                               LORAMAC_REGION_EU868
+#define ACTIVE_REGION                               LORAMAC_REGION_US915
 
 /* USER CODE BEGIN EC_CAYENNE_LPP */
 /*!
@@ -51,7 +51,7 @@ extern "C" {
 /*!
  * Defines the application data transmission duty cycle. 10s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            10000
+#define APP_TX_DUTYCYCLE                            3000
 
 /*!
  * LoRaWAN User application port
@@ -68,7 +68,7 @@ extern "C" {
 /*!
  * LoRaWAN default class
  */
-#define LORAWAN_DEFAULT_CLASS                       CLASS_A
+#define LORAWAN_DEFAULT_CLASS                       CLASS_C
 
 /*!
  * LoRaWAN default confirm state

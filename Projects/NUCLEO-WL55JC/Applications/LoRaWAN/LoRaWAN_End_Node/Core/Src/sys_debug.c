@@ -66,7 +66,7 @@ void DBG_Init(void)
   /* USER CODE BEGIN DBG_Init_1 */
 
   /* USER CODE END DBG_Init_1 */
-
+#define DEBUGGER_ENABLED 1
   /* SW probes */
 #if defined (DEBUGGER_ENABLED) && ( DEBUGGER_ENABLED == 0 )
   HAL_DBGMCU_DisableDBGSleepMode();
